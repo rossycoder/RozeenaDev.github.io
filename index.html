@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rozeena | Full Stack Developer</title>
+  <meta name="description" content="Professional portfolio for Rozeena, a full stack web developer specializing in MERN stack development">
+  <meta name="author" content="Rozeena">
+
+  <meta property="og:title" content="Rozeena | Full Stack Developer">
+  <meta property="og:description" content="Professional portfolio for Rozeena, a full stack web developer specializing in MERN stack development">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@rozeena">
+  <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loading-screen">
+    <div class="loader">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="shadow"></div>
+      <div class="shadow"></div>
+      <div class="shadow"></div>
+    </div>
+    <h2 class="loading-text">Loading<span class="dots">...</span></h2>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container navbar-container">
+      <div class="logo">Rozeena</div>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="navbar-link">Home</a></li>
+        <li><a href="#about" class="navbar-link">About</a></li>
+        <li><a href="#skills" class="navbar-link">Skills</a></li>
+        <li><a href="#projects" class="navbar-link">Projects</a></li>
+        <li><a href="#experience" class="navbar-link">Experience</a></li>
+        <li><a href="#contact" class="navbar-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section with 3D Computer -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I'm <span class="text-primary">Rozeena</span></h1>
+        <h2 class="hero-subtitle">Full Stack Developer</h2>
+        <p class="hero-description">
+          Results-driven full-stack developer with expertise in MERN stack technologies,
+          RESTful APIs and responsive UI/UX design.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="scene">
+          <div class="computer">
+            <div class="screen">
+              <div class="code-animation">
+                <pre><code>&lt;div class="hero"&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+  &lt;p&gt;Welcome to my portfolio&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+            <div class="keyboard"></div>
+            <div class="base"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-image">
+          <img src=".\images\WhatsApp Image 2025-05-26 at 4.44.24 PM.jpeg" alt="Rozeena Profile">
+          <div class="about-blob"></div>
+        </div>
+        <div class="about-text">
+          <p>
+            Results-driven full-stack developer with 1+ years of experience building scalable web applications. 
+            Proficient in MERN stack technologies with expertise in RESTful APIs and responsive UI/UX design. 
+            Proven ability to deliver secure, high-performing solutions while improving code quality and user engagement.
+          </p>
+          <div class="about-details">
+            <div class="detail">
+              <span class="detail-title">Name:</span>
+              <span class="detail-info">Rozeena</span>
+            </div>
+            <div class="detail">
+              <span class="detail-title">Location:</span>
+              <span class="detail-info">Aliabad, Skardu</span>
+            </div>
+            <div class="detail">
+              <span class="detail-title">Email:</span>
+              <span class="detail-info">rozeena031@gmail.com</span>
+            </div>
+            <div class="detail">
+              <span class="detail-title">Phone:</span>
+              <span class="detail-info">+9 340-8276792</span>
+            </div>
+          </div>
+          <div class="achievements">
+            <h3>Key Achievements</h3>
+            <ul>
+              <li><span>Traffic Growth:</span> Increased website traffic by 40% in 6 months through optimized SEO and user engagement strategies.</li>
+              <li><span>Code Quality:</span> Reduced bug rates by 30% via automated testing and peer code reviews.</li>
+              <li><span>Security Enhancements:</span> Implemented OAuth2.0 and encryption protocols, reducing security breaches by 50%.</li>
+              <li><span>Project Delivery:</span> Successfully launched 3 responsive web applications, including a Learning Management System (LMS) and a Real Estate Management System.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skills-grid">
+            <div class="skill-item" data-skill="React">
+              <div class="skill-icon">
+                <i class="devicon-react-original"></i>
+              </div>
+              <span class="skill-name">React</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-skill="Next.js">
+              <div class="skill-icon">
+                <i class="devicon-nextjs-original"></i>
+              </div>
+              <span class="skill-name">Next.js</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-skill="JavaScript">
+              <div class="skill-icon">
+                <i class="devicon-javascript-plain"></i>
+              </div>
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-skill="HTML/CSS">
+              <div class="skill-icon">
+                <i class="devicon-html5-plain"></i>
+              </div>
+              <span class="skill-name">HTML/CSS</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 98%"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-skill="TailwindCSS">
+              <div class="skill-icon">
+                <i class="devicon-tailwindcss-plain"></i>
+              </div>
+              <span class="skill-name">TailwindCSS</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 92%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="skills-grid">
+            <div class="skill-item" data-skill="Node.js">
+              <div class="skill-icon">
+                <i class="devicon-nodejs-plain"></i>
+              </div>
+              <span class="skill-name">Node.js</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 88%"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-skill="Express.js">
+              <div class="skill-icon">
+                <i class="devicon-express-original"></i>
+              </div>
+              <span class="skill-name">Express.js</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 87%"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-skill="MongoDB">
+              <div class="skill-icon">
+                <i class="devicon-mongodb-plain"></i>
+              </div>
+              <span class="skill-name">MongoDB</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-skill="MySQL">
+              <div class="skill-icon">
+                <i class="devicon-mysql-plain"></i>
+              </div>
+              <span class="skill-name">MySQL</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item" data-skill="RESTful APIs">
+              <div class="skill-icon">
+                <i class="devicon-nodejs-plain"></i>
+              </div>
+              <span class="skill-name">RESTful APIs</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src=".\images\My cv project.png" alt="Real Estate Project">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://luxuryestates.onrender.com" class="project-link">View Demo</a>
+                <a href="https://github.com/rossycoder/Real-State" class="project-link">Source Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Real Estate Management System</h3>
+            <p class="project-description">
+              A property listing platform with user authentication and authorization, 
+              featuring dynamic content rendering.
+            </p>
+            <div class="project-tech">
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">Express.js</span>
+              <span class="skill-pill">MongoDB</span>
+              <span class="skill-pill">Passport.js</span>
+            </div>
+          </div>
+        </div>
+        
+       
+        
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src=".\images\Capture.PNG" alt="Amazon Clone">
+            <div class="project-overlay">
+              <div class="project-links">
+             
+                <a href="https://github.com/rossycoder/Amazon-Frontend-" class="project-link">Source Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Amazon Clone</h3>
+            <p class="project-description">
+              A responsive e-commerce interface with product listings and shopping cart 
+              functionality.
+            </p>
+            <div class="project-tech">
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src=".\images\123.PNG" alt="Airbnb Clone">
+            <div class="project-overlay">
+              <div class="project-links">
+                
+                <a href="https://github.com/rossycoder/Airbnb-Clone" class="project-link">Source Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Airbnb Clone</h3>
+            <p class="project-description">
+              A real-time booking system with user authentication and property listing management.
+            </p>
+            <div class="project-tech">
+              <span class="skill-pill">MERN Stack</span>
+              <span class="skill-pill">Passport.js</span>
+              <span class="skill-pill">Socket.io</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Experience Section -->
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <h2 class="section-title">Work Experience & Education</h2>
+      <div class="timeline">
+        <!-- Work Experience -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">October 2024 - January 2025</div>
+          <div class="timeline-content">
+            <h3>Full Stack Developer</h3>
+            <h4>Code Hub Technology, Skardu</h4>
+            <ul>
+              <li>Designed and developed a Learning Management System (LMS) with coding assessments and progress tracking.</li>
+              <li>Implemented MongoDB for data storage and Express.js for backend routing.</li>
+              <li>Optimized UI/UX using React and Bootstrap, improving user engagement by 25%.</li>
+              <li>Mentored junior developers on best practices in version control and agile workflows.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2020 - 2024</div>
+          <div class="timeline-content">
+            <h3>Bachelor of Computer Science</h3>
+            <h4>Baltistan University</h4>
+            <p>Relevant coursework: Software Engineering, Database Systems, Web Development.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2018 - 2019</div>
+          <div class="timeline-content">
+            <h3>Intermediate</h3>
+            <h4>Degree College Skardu</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div>
+              <h3>Email</h3>
+              <p>rozeena031@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <h3>Phone</h3>
+              <p>+9 340-8276792</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h3>Location</h3>
+              <p>Aliabad, Skardu</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/rossycoder" class="social-link">Github</a>
+            <a href="https://linkedin.com/in/rozeena-rozeena" class="social-link">LinkedIn</a>
+            
+          </div>
+        </div>
+        <form
+  id="contact-form"
+  class="contact-form"
+  action="https://formspree.io/f/xgvkjrqw"
+  method="POST"
+>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      class="contact-input"
+      placeholder="Your Name"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      class="contact-input"
+      placeholder="Your Email"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      class="contact-input"
+      rows="5"
+      placeholder="Your Message"
+      required
+    ></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Send Message</button>
+</form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="copyright">© 2025 Rozeena. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Simulating loading screen
+    window.addEventListener('load', function() {
+      setTimeout(function() {
+        document.getElementById('loading-screen').style.opacity = '0';
+        setTimeout(function() {
+          document.getElementById('loading-screen').style.display = 'none';
+        }, 500);
+      }, 2000);
+    });
+  </script>
+</body>
+</html>
